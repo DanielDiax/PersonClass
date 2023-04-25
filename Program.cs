@@ -50,7 +50,8 @@ namespace PersonClass
                     calculadora.Operar(num1, num2);
                     break;
                 case 3:
-                    Console.Clear();
+                    Console.Clear(); 
+                    Console.WriteLine("Eso es todo.\n\n");
                     Console.ReadKey();
                     break;
                 default:
