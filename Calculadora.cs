@@ -19,6 +19,12 @@ namespace PersonClass
                               "Digite 4 para calcular división.\n");
             select = Convert.ToInt32(Console.ReadLine());
 
+            while (select < 1 || select > 4)
+            {
+                Console.WriteLine("La opción no existe, vuelva a digitar otra de las que se especifica");
+                select = Convert.ToInt32(Console.ReadLine());
+            }
+
             switch (select)
             {
                 case 1:
